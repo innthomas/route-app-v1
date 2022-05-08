@@ -19,21 +19,21 @@ const Header = () => {
                 margin: "1rem 0",
                 color: isActive ? "red" : "",
               };
-            }} to="/">Home</NavLink> 
+            }} to="/route-app-v1/">Home</NavLink> 
         <NavLink      style={({ isActive }) => {
               return {
                 display: "block",
                 margin: "1rem 0",
                 color: isActive ? "red" : "",
               };
-            }} to="/about">About</NavLink> 
+            }} to="/route-app-v1/about">About</NavLink> 
         <NavLink      style={({ isActive }) => {
               return {
                 display: "block",
                 margin: "1rem 0",
                 color: isActive ? "red" : "",
               };
-            }} to="/contact">Contact</NavLink>
+            }} to="/route-app-v1/contact">Contact</NavLink>
       </nav>
         </div>
       <Outlet />
